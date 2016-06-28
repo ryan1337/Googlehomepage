@@ -1,0 +1,17 @@
+button
+{
+  float: right;
+
+}
+
+ul li
+
+{
+  display: inline-block;
+  list-style-type: none;
+  /*position: absolute;*/
+  margin-left: 10px;
+  float: right;
+  padding-top: 3px; /* move the text to the bot */
+  margin-right: 8px;
+}
