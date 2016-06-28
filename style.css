@@ -17,5 +17,12 @@ ul li
   margin-left: 10px;
   float: right;
   padding-top: 3px; /* move the text to the bot */
-  margin-right: 8px;
+  margin-right: 15px;
+}
+
+a
+{
+  color: black;
+  font-size: small;
+
 }
