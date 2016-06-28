@@ -1,6 +1,10 @@
 button
 {
   float: right;
+  background-color: rgb(50, 39, 246);
+  color: white;
+  border: none;
+  font-size: small;
 
 }
 
