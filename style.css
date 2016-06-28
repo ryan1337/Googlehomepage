@@ -1,10 +1,12 @@
 button
 {
   float: right;
-  background-color: rgb(50, 39, 246);
+  background-color: #4386F8;
   color: white;
   border: none;
   font-size: small;
+  padding: 5px;
+  width: 8%;
 
 }
 
@@ -14,10 +16,10 @@ ul li
   display: inline-block;
   list-style-type: none;
   /*position: absolute;*/
-  margin-left: 10px;
+  margin-left: 5px;
   float: right;
-  padding-top: 3px; /* move the text to the bot */
-  margin-right: 15px;
+  padding-top: 8px; /* move the text to the bot */
+  margin-right: 20px;
 }
 
 a
@@ -25,4 +27,31 @@ a
   color: black;
   font-size: small;
 
+}
+
+li:hover
+{
+  text-decoration: underline;
+
+}
+
+.menu img
+{
+  width: 25px;
+  float: right;
+  padding-right: 15px;
+  padding-top: 3px;
+}
+
+body
+{
+  margin-right: 50px;
+}
+
+section img
+{
+  position: absolute;
+  right: 50%;
+  left: 40%;
+  top: 40%;
 }
