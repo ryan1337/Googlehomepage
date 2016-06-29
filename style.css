@@ -90,15 +90,24 @@ body
 
 .gauche
 {
-  position: absolute;
-  bottom: 0px;
+  position:absolute;
+  bottom: 10px;
   left: 0px;
 }
 
 .droite
 {
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   right: 0px;
 
+
+}
+
+footer .gauche .droite
+{
+
+  background: lightgrey;
+  height: 32px;
+  bottom: 0px;
 }
