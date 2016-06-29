@@ -20,6 +20,7 @@ ul li
   float: right;
   padding-top: 8px; /* move the text to the bot */
   margin-right: 20px;
+  font-family: Arial, sans-serif;
 }
 
 a
@@ -32,7 +33,6 @@ a
 li:hover
 {
   text-decoration: underline;
-
 }
 
 .menu img
@@ -61,11 +61,44 @@ section .barre
 {
   position: absolute;
   right: 50%;
-  left: 40%;
+  left: 30%;
   top: 60%;
 }
 
 input
 {
-  width: 500px;
+  width: 570px;
+  height: 30px;
+  border: 1px #A0A0A0 solid;
+}
+
+input:hover
+{
+  border: 1px grey solid;
+
+}
+
+input:focus
+{
+  border: 1px #4386F8 solid;
+}
+
+body
+{
+  font-family: Arial, sans-serif;
+}
+
+.gauche
+{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.droite
+{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
 }
