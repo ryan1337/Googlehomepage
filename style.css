@@ -139,3 +139,9 @@ footer
   font-family: Arial, sans-serif;
   font-size: small;
 }
+
+.menu a img:hover
+{
+  cursor: default;
+  opacity: 10;
+}
