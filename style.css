@@ -1,6 +1,6 @@
 /*-------------------------------button---------------------------------------------*/
 
-button
+.connexion button
 {
   float: right;
   background-color: #4386F8;
@@ -127,11 +127,12 @@ body
   color: grey;
 
 /*-----------------------------------------------------footer------------------------------*/
+
 }
 footer
 {
   position: relative;
-  top: 510px;
+  top: 480px;
   background-color: #F1F1F1;
   height: 42px;
   width: 103.8%;
@@ -141,8 +142,17 @@ footer
 }
 
 /*------------------------------------------------.menu a img:hover-----------------------------*/
+
 .menu a img:hover
 {
   cursor: default;
   opacity: 10;
+}
+
+/*------------------------------------------section .recherche button----------------------------------*/
+section .recherche button
+{
+  position: relative;
+  top: 395px;
+  left: 520px;
 }
