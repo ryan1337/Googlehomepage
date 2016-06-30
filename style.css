@@ -21,6 +21,7 @@ ul li
   padding-top: 8px; /* move the text to the bot */
   margin-right: 20px;
   font-family: Arial, sans-serif;
+  color: grey;
 }
 
 a
@@ -42,11 +43,6 @@ li:hover
   padding-right: 15px;
   padding-top: 3px;
   opacity: 0.6;
-}
-
-body
-{
-  margin-right: 50px;
 }
 
 section img
@@ -86,28 +82,34 @@ input:focus
 body
 {
   font-family: Arial, sans-serif;
+  margin-right: 50px;
+  margin-left: 0;
 }
 
 .gauche
 {
-  position:absolute;
+  position: absolute;
   bottom: 10px;
-  left: 0px;
+  left: 10px;
+  color: grey;
 }
 
 .droite
 {
   position: absolute;
   bottom: 10px;
-  right: 0px;
-
+  right: 10px;
+  color: grey;
 
 }
-
-footer .gauche .droite
+footer
 {
-
-  background: lightgrey;
-  height: 32px;
-  bottom: 0px;
+  position: relative;
+  top: 510px;
+  background-color: #F1F1F1;
+  height: 42px;
+  width: 103.8%;
+  border-top: 1.5px #E4E4E4 solid;
+  font-family: Arial, sans-serif;
+  font-size: small;
 }
