@@ -24,7 +24,7 @@ ul li
   padding-top: 8px; /* move the text to the bot */
   margin-right: 20px;
   font-family: Arial, sans-serif;
-  color: grey;
+  color: #404040;
 }
 
 /*----------------------------------------a------------------------------------------*/
@@ -95,7 +95,7 @@ input:hover
 
 input:focus
 {
-  border: 1px #4386F8 solid;
+    border: 1px #4386F8 solid;
 }
 
 /*--------------------------------------------body-------------------------------------------------------------*/
@@ -114,7 +114,7 @@ body
   position: absolute;
   bottom: 10px;
   left: 10px;
-  color: grey;
+  color: #666666;
 }
 
 /*----------------------------------------------------.droite----------------------------------*/
@@ -124,7 +124,7 @@ body
   position: absolute;
   bottom: 10px;
   right: 10px;
-  color: grey;
+  color: #666666;
 
 /*-----------------------------------------------------footer------------------------------*/
 
@@ -132,7 +132,7 @@ body
 footer
 {
   position: relative;
-  top: 480px;
+  top: 430px;
   background-color: #F1F1F1;
   height: 42px;
   width: 103.8%;
@@ -157,6 +157,12 @@ section .recherche button
   top: 395px;
   left: 520px;
   border: 1px #F3F3F3 solid;
+  color: grey;
+  height: 40px;
+  width: 150px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: small;
 }
 
 /*----------------------------------------------section .jai button-------------------------------------------*/
@@ -164,7 +170,43 @@ section .recherche button
 section .jai button
 {
   position: relative;
-  top: 366px;
+  top: 355px;
   left: 700px;
   border: 1px #F3F3F3 solid;
+  color: grey;
+  height: 40px;
+  width: 150px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+
+/*------------------------------------section .recherche button :hover--------------------*/
+
+section .recherche button:hover
+{
+  color: black;
+  border: 1px grey solid;
+}
+
+/*-----------------------------------------section .jai button:hover-----------------------------*/
+
+section .jai button:hover
+{
+  color: black;
+  border: 1px grey solid;
+}
+
+/*----------------------------------------------section .recherche button:focus--------------*/
+
+section .recherche button:focus
+{
+  border: 1px #4386F8 solid;
+}
+
+/*-------------------------------------section .jai button:focus---------------------*/
+
+section .jai button:focus
+{
+  border: 1px #4386F8 solid;
 }
