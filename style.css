@@ -150,9 +150,21 @@ footer
 }
 
 /*------------------------------------------section .recherche button----------------------------------*/
+
 section .recherche button
 {
   position: relative;
   top: 395px;
   left: 520px;
+  border: 1px #F3F3F3 solid;
+}
+
+/*----------------------------------------------section .jai button-------------------------------------------*/
+
+section .jai button
+{
+  position: relative;
+  top: 366px;
+  left: 700px;
+  border: 1px #F3F3F3 solid;
 }
