@@ -210,3 +210,57 @@ section .jai button:focus
 {
   border: 1px #4386F8 solid;
 }
+
+@media screen and (max-width: 1024px) {
+  ul li {
+    float: left;
+  }
+
+  .menu img {
+    float: left;
+  }
+
+  .connexion button {
+    display: none;
+  }
+
+  section img {
+    position: absolute;
+    left: 10%;
+  }
+
+  .gauche {
+    display: none;
+  }
+
+  .droite {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  section .recherche button {
+    position: relative;
+    left: 10%;
+    top: 300px;
+  }
+
+  input {
+    width: 250px;
+  }
+
+  section .barre {
+    position: absolute;
+    left: 15%;
+
+  }
+
+  section .jai button {
+    position: relative;
+    left: 75%;
+    top: 260px;
+    width: 30%;
+  }
+}
